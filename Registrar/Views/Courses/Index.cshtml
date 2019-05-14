@@ -1,0 +1,16 @@
+<h1>Registrar</h1>
+<hr />
+<h2>Courses</h2>
+
+@if (Model.Count != 0)
+{
+  <ul>
+  @foreach (var course in Model)
+  {
+    <li><a href='/courses/@course.Id'>@course.Name</a></li>
+  }
+  </ul>
+}
+
+<h4><a href="/courses/new">Add new course</a></h4>
+<h4><a href="/">Back Home</a></h4>
