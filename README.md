@@ -3,7 +3,7 @@
 ### _***Kevin Garvey***_
 
 ### _Description:_
-##### _An for tracking students and the courses they are taking utilizing database join tables. 05/14/2019_
+##### _An app for tracking students and the courses they are taking utilizing database join tables. 05/14/2019_
 
 ### _Setup/Installation_
 
